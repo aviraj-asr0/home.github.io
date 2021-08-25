@@ -1,0 +1,20 @@
+body{
+    background-color: #2f0101;
+}
+#header{
+    background-color: rgb(4, 49, 146);
+    text-align: center;
+    font-size: 400%;
+}
+#main{
+    background-color: rgb(129, 111, 5);
+    text-align: center;
+    margin-top: 15%;
+    font-size: 400%;
+}
+#footer{
+    background-color: rgb(4, 105, 4);
+    text-align: center;
+    margin-top: 15%;
+    font-size: 400%;
+}
