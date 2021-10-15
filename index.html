@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <header id="header" class="js">
         HELLO WORLD!
@@ -15,6 +17,18 @@
     <main id="main" class="js">
         I am Aviraj Singh Rathore.
     </main>
-    <footer id="footer" class="js">BYE!</footer>
+    <footer id="footer" class="js">BYE!
+    </footer>
+    <script>
+        var i = 0;
+function change() {
+    var doc = document.body;
+    var color = ["lime", "red", "cyan", "yellow"];
+  doc.style.backgroundColor = color[i];
+  i = (i + 1) % color.length;
+}
+setInterval(change, 750);
+    </script>
 </body>
+
 </html>
